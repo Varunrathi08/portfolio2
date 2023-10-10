@@ -1,0 +1,809 @@
+@media only screen and (max-width:600px){
+    
+    html.body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        
+       
+
+    }
+
+    .logo-container{
+        display: none;
+    }
+
+    .noscroll{
+
+        
+      
+    }
+
+
+    body{
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        height: 200vh;
+        width: 100%;
+        background-color: #0a0c0f;
+        
+    }
+    header{
+       
+    }
+
+    .rproject{
+        display: none;
+      }
+
+      .resume{
+       display: none;
+
+      }
+
+    .rcon{
+       display: none;
+    }
+
+    .header__button{
+        opacity: 100%;
+        right: 2px;
+        top: 2px;
+    }
+
+    .header .resume{
+        display: none;
+    }
+
+    .header h3{
+        display: none;
+    }
+
+    .header .logo{
+        left: 35px;
+        position: absolute;
+        font-size: 20px;
+        top: 41px;
+        
+    }
+
+    .header__menu > .header__menu-item {
+        font-size: 6vh;
+    
+       
+        
+       
+      }
+
+      .header__menu{
+
+        position: relative;
+        top: 50px;
+        left: 80px;
+        display: inline;
+
+      }
+     
+    .news{ 
+        display: none;
+    }
+
+    .intro{
+        display: none;
+    }
+
+    .mobileimage img{
+        height: 200px;
+       max-width:  100%;
+       position: absolute;
+       top: 21vh;
+       left: 13.7vh;
+    }
+
+    .mobileimage h2{
+
+        position: absolute;
+        top: 49.4vh;
+        left: 19.9vh;
+        font-size: 2.3em;
+        color: #6eabb1;
+        font-weight: 400;
+    }
+
+    .mobileimage h3{
+
+        position: absolute;
+        top: 59.4vh;
+        left: 7.4vh;
+        font-size:1.9em;
+        color: #f0f0f0;
+        font-weight: 397;
+        justify-content: center;
+        text-align: center;
+    }
+    .mobileimage h3 span{
+        display: block;
+    }
+    
+    .about{
+        display: none;
+
+    }
+    .abc{
+        display: none;
+
+    }
+
+    #wrapper{
+        display: none;
+    }
+
+    .left{
+        display:none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .parallax{
+        display: none;
+    }
+
+    .certify{
+        display: none;
+    }
+
+    .services-section{
+        display:none;
+    }
+    .page1{
+        display: none;
+    }
+    .about2{
+        display: none;
+    }
+
+    .cover1{
+display: none;
+    }
+
+    .cover2{
+        display: none;
+    }
+    .banner img{
+       
+        display: none;
+        
+        
+      
+    }
+
+    .stick{
+     display: none;
+    }
+.projectss{
+    display: none;
+}
+    
+    
+    .hello{
+        display: none;
+
+    }
+
+    .buttonhh{
+        display: none;
+    }
+    .intro{
+        display: none;
+    }
+    
+    .button8{
+        display:none
+    }
+    .button9{
+        display:none
+    }
+
+
+    .center {
+        background-color: aqua;
+        height: 80vh;
+        width: 98%;
+
+        margin-top: 0%;
+        position: relative;
+        top:75vh
+    }
+
+    .sliderz{
+        height: 45vh;
+        background-color: #000000;
+        text-align: center;
+        position: relative;
+        animation: slideColor 10s forwards infinite;
+        margin-top: 0%;
+        width: 100%;
+        top:68vh
+    }
+    
+    .caption{
+        line-height: 120px;
+        font-size: 36px;
+        color: #fff;
+        position: absolute;
+        top: 38%;
+        transform: translateY(-30%);
+        text-shadow: 0px 5px 5px rgba(0,0,0,.25);
+      left: 5.4vh;
+    }
+    
+    .text-box{
+        display: inline-block;
+        position: relative;
+    }
+    
+    .text-box div{
+        display: inline-block;
+        position: absolute;
+        top: -200px;
+        transform: rotateX(-90deg);
+        opacity: 0;
+        text-shadow: 0px 5px 5px rgba(0,0,0,.25);
+        animation-timing-function: ease;
+    }
+    
+    .text-box div:nth-child(1){
+        animation: rollDown 10s forwards infinite;
+    }
+    
+    .text-box div:nth-child(2){
+        animation: rollDown2 10s forwards infinite;
+        color: #6eabb1;
+    }
+    
+    .text-box div:nth-child(3){
+        animation: rollDown3 10s forwards infinite;
+    }
+    
+    @keyframes rollDown {
+        0%{
+            top: -200px;
+            transform: rotateX(-90deg);
+        }
+        11%{
+            top: -74px;
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
+        22%{
+            top: -74px;
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
+        33%{
+            top: 50px;
+            transform: rotateX(30deg);
+            opacity: 0;
+        }
+    }
+    
+    @keyframes rollDown2 {
+        33%{
+            top: -200px;
+            transform: rotateX(-90deg);
+        }
+        44%{
+            top: -74px;
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
+        55%{
+            top: -74px;
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
+        66%{
+            top: 50px;
+            transform: rotateX(30deg);
+            opacity: 0;
+        }
+    }
+    
+    @keyframes rollDown3 {
+        66%{
+            top: -200px;
+            transform: rotateX(-90deg);
+        }
+        77%{
+            top: -74px;
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
+        88%{
+            top: -74px;
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
+        99%{
+            top: 50px;
+            transform: rotateX(30deg);
+            opacity: 0;
+        }
+    }
+
+    .workmobile{
+
+   
+        
+       
+    
+      }
+    
+    
+  .gallery {
+	background: #e32f2f;
+    overflow: hidden;
+    top: 505px;
+    width: 99%;
+    position: relative;
+   
+ 
+  
+}
+
+.gallery-cell {
+	
+	width: 500px;
+	height: 520px;
+	margin-right: 10px;
+	background: #8C8;
+	counter-increment: gallery-cell;
+    overflow: hidden;
+}
+
+.gallery-cell img{
+
+    transform: translate(0%,-60%);
+    height: 775px;
+    width: auto;
+   
+}
+
+
+
+/* cell number */
+.gallery-cell:before {
+	display: block;
+	text-align: center;
+	content: counter(gallery-cell);
+	line-height: 200px;
+	font-size: 80px;
+	color: white;
+}
+
+.mobilecontact h2{
+
+    position: absolute;
+    top: 5.4vh;
+    left: 13.9vh;
+    font-size: 2.3em;
+    color: #f0f0f0;
+    font-weight: 400;
+}
+
+.mobilecontact h3{
+
+    position: absolute;
+    top: 12.4vh;
+    left: 5.2vh;
+    font-size:2.3em;
+    color: #f0f0f0;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+}
+    .mobilecontact img{
+        height: 49px;
+        max-width: 100% ;
+        position: absolute;
+        top: 4.9vh;
+        left: 5.4vh
+
+    }
+    
+     .mobilecontact{
+        height: 87vh;
+        background-color: #000000;
+        width: 99.5%;
+        position: absolute;
+        top:193vh;
+        margin-top: 0%;
+     } 
+
+     #line2{
+    
+        width: 95%;
+        height: 1px;
+        background-color: rgb(189, 189, 189);
+        position: absolute;
+        top: 26.9vh;
+        align-items: center;
+       left: 1.2vh;
+        
+      }
+
+      .contact_button {
+       
+        width: 121px;
+        height: 121px;
+        border-radius: 50%;
+        background-color: #6eabb1;
+     left: 27.6vh;
+       top: 18.5vh;
+        position: absolute;
+       
+        
+      }
+
+     
+    
+   
+    
+   
+    
+
+    button {
+        opacity: 30%;
+        border: none;
+        border-radius: 50px;
+    }
+
+  
+
+    .ripple {
+        background-position: center;
+        transition: background 0.8s;
+       border-radius: 50px;
+       height: 64px;
+      }
+      .ripple:hover {
+        background: #478085 radial-gradient(circle, transparent 1%, #6eabb1 1%) center/15000%;
+      }
+      .ripple:active {
+        background-color: #478085;
+        background-size: 100%;
+        transition: background 0s;
+      }
+      
+      /* Button style */
+      button {
+     
+        border-radius: 2px;
+        padding: 12px 18px;
+        font-size: 16px;
+        ;
+        cursor: pointer;
+        border-color: #f0f0f0;
+        background-color:#6eabb1;
+        
+        outline: none;
+      }
+
+      .mobilecontact button{
+        opacity: 100%;
+        width: 320px;
+        max-height: 100%;
+        background-color: rgb(51, 51, 51)
+         ;
+    color: #fff;
+    position: absolute;
+    top:37.5vh;
+    left: 4vh;
+      }
+
+      .ripple2 {
+        background-position: center;
+        transition: background 0.8s;
+       border-radius: 50px;
+       height: 64px;
+       position: absolute;
+       
+      }
+      .ripple2:hover {
+        background: #478085 radial-gradient(circle, transparent 1%, #6eabb1 1%) center/15000%;
+      }
+      .ripple2:active {
+        background-color: #478085;
+        background-size: 100%;
+        transition: background 0s;
+      }
+      
+
+      .mobilecontact .ripple2{
+        position: relative;
+        top: 49vh;
+      }
+     /* .socials{
+        height: 50vh;
+        position: relative;
+        top: 90vh;
+        background-color: #e32f2f;
+       }
+      */
+       .socials h4{
+        color: #e3e3e3;
+        position: relative;
+        top: 131vh;
+        left: 3vh;
+        width: 50%;
+        font-weight: 300;
+
+       }
+
+       .socials a{
+        color: #f0f0f0;
+        position: relative;
+        top: 134vh;
+        left: 2.3vh;
+        width: 70%;
+        padding: 8px;
+        text-decoration: none;
+
+
+       }
+       #line3{
+    
+        width: 95%;
+        height: 1px;
+        background-color: rgb(189, 189, 189);
+        position: relative;
+        top: 137.8vh;
+        align-items: center;
+       left: 1.2vh;
+
+     
+    
+    }
+
+    .banner2{
+        display: none;
+    }
+    .socials h3{
+        color: #898989;
+        position: relative;
+        top: 4vh;
+        left: 2vh;
+        width: 50%;
+        font-weight: 200;
+        font-size: 15px;
+        display: inline;
+
+       }
+
+       #img1{
+      position: relative;
+       
+      aspect-ratio: 0.90;
+      top: 120px;
+      right: 75px;
+        
+       }
+
+}
+    
+
+
+/* for ipad */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Your tablet-specific CSS here */
+
+
+    html.body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        
+       
+
+    }
+    body{
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        height: 200vh;
+        width: 100%;
+        background-color: #0a0c0f;
+        cursor: pointer;
+        
+    }
+
+    .parallax{
+        display: none;
+    }
+
+
+
+
+  }
+  
+
+  @media only screen and (min-device-width: 601px) and (max-device-width: 1024px) and (orientation: landscape) {
+   
+
+
+    
+   *{
+  
+
+   }
+
+   .noscroll {
+    overflow-x: hidden;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+            padding: 0px;
+            ;
+   }
+
+
+     body{
+        
+       
+            margin: 0;
+            padding: 0px;
+            ;
+           overflow: hidden;
+            width: 100%;
+            background-color: #0a0c0f;
+            overflow: auto;
+            padding-right: 0px;
+           
+            
+        }
+         
+       
+         
+    
+     .banner img {
+ 
+        
+ 
+     }
+ 
+     .hello{
+ 
+        
+       
+ 
+     }
+ 
+     .intro{
+         
+     }
+ 
+ 
+     .buttonhh{
+         
+         left: 268px;
+     }
+ 
+    
+     
+ 
+     .parallax{
+         display: none;
+     }
+ 
+   
+     .magicMouse {
+         display: none; 
+       }
+ 
+       .cover1{
+         display: none;
+       }
+ 
+       .cover2{
+         display: none ;
+       }
+ 
+       .rproject{
+         left: 999px;
+       }
+ 
+       .resume{
+         left: 890px
+ 
+       }
+ 
+     .rcon{
+         left: 1090px
+     }
+ 
+    /* .header{
+         display: none;
+     }
+     */
+ 
+     
+     .about{ 
+       
+         
+     }
+ 
+     
+ 
+ 
+     .projectss{
+         display: none;
+     }
+ 
+ 
+     .services-section{
+         display: none;
+     }
+ 
+     .about2{
+        
+     }
+ 
+     .stick{
+ 
+         
+        
+     }
+     .abc{
+       display: none;
+ 
+     }
+ 
+     .hero{
+        
+        
+     }
+     .banner2{
+         display: none;
+     }
+
+     .abcs{
+        display: none;
+     }
+     .socials2{
+        left: 300px;
+     }
+
+     .designed  {
+        left: 570px;
+     }
+
+     .button9{
+        left: 75px;
+     }
+
+     .button8{
+        right: 200px;
+     }
+
+     .all-text {
+        transform: translate(20%, -4%);
+     }
+
+     .contact1 h2{
+        left: 400px;
+     }
+     
+     .contact2 h2{
+        left: 100px;
+     }
+     .about_img {
+        left: 430px;
+     }
+   }
